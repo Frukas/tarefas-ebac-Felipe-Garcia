@@ -6,7 +6,7 @@ public class main {
 
         String name = "";
 
-        if(args.length > 0){
+        if(args.length >= 0){
             name = makeFrase(args);
         }                    
         
