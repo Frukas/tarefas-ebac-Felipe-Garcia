@@ -1,6 +1,15 @@
 package com.br.mod7;
 
+
+/**
+ * 
+ * @author garushia
+ * 
+ * Classe que representa uma pessoa.
+ *
+ */
 public class pessoa {
+	
 	
 	private String nome;
 	private int idade;
@@ -47,6 +56,11 @@ public class pessoa {
 		return this;
 	}
 	
+	/**
+	 * Cálculo para saber se está obeso.
+	 * Para funcionar corretamente é necessário ter informado o peso e altura.
+	 * @return A taxa da massa corporal em float.
+	 */
 	public float getMassaCorporal() {
 		
 		return this.peso /((this.altura)*(this.altura));		
