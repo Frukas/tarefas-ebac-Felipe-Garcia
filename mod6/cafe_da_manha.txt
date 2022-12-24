@@ -1,0 +1,19 @@
+Passos para tomar o café da manha.
+
+1- Quando toca o alarme mudo o estado de dormindo para acordado.
+2- Levanto da cama.
+3- Mudo minha localidade do quarto para cozinha.
+4- Ligo a TV no jornal e deixo ligado (Thread).
+5- Inicio o processo de preparação do café da manhã.
+	-Separo o leite.
+	-Separo o ovomaltine.
+	-Separo o pão de forma.
+	-Separo a manteiga.
+
+	- Começo o processo de mexer o leite utilizando o leite o ovomaltine que me retorna uma leite achocolatado.
+	- Começo o processo de passar manteiga no pão que utiliza o pão e a manteiga e retorna o pão com manteiga.
+	
+	- Retorna o café da manha que consiste de um pão com manteiga e leite achocolatado.
+6- Consumo o café da manhã deixando ele nulo.
+7- Desligo a TV.
+8- Sigo o prossimo passo do meu dia. 
