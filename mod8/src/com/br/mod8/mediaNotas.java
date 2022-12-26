@@ -1,10 +1,13 @@
 package com.br.mod8;
 
+import java.util.Scanner;
+
 public class mediaNotas {
 	
 	private float[] notas = new float[4];
 	private final int MAX_NOTAS = 3;
 	private int quantidadeNotas = 0;
+	private Scanner myObj = new Scanner(System.in);
 	
 	
 	public mediaNotas setNotas(float nota) {
