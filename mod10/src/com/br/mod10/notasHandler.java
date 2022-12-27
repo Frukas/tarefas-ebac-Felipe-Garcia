@@ -22,6 +22,7 @@ public class notasHandler {
 		calcMedia();
 	}
 	
+	
 	public void printNotas() {
 		
 		System.out.println("Notas: ");		
