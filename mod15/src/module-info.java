@@ -5,5 +5,5 @@
  * @author garus
  *
  */
-module mod5 {
+module mod15 {
 }

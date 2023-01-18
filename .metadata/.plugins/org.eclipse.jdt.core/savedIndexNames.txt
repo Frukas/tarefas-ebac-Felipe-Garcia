@@ -2,7 +2,9 @@ INDEX VERSION 1.131+C:\Projetos\Tarefas-EBAC\tarefas-ebac-Felipe-Garcia\.metadat
 1865797976.index
 4019343551.index
 271866354.index
+391749099.index
 137002424.index
+1637731351.index
 2302478408.index
 4265228510.index
 2559926313.index

@@ -4,4 +4,5 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.br.mod13.PessoaFisica"/>
     <fullyQualifiedTypeName name="com.br.mod13.PessoaJuridica"/>
+    <fullyQualifiedTypeName name="com.br.mod15.car.Car"/>
 </qualifiedTypeNameHistroy>
