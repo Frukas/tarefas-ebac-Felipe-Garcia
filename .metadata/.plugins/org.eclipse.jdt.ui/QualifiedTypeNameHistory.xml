@@ -5,4 +5,9 @@
     <fullyQualifiedTypeName name="com.br.mod13.PessoaFisica"/>
     <fullyQualifiedTypeName name="com.br.mod13.PessoaJuridica"/>
     <fullyQualifiedTypeName name="com.br.mod15.car.Car"/>
+    <fullyQualifiedTypeName name="com.br.mod17.classes.Carro"/>
+    <fullyQualifiedTypeName name="com.br.mod17.classes.carroFiat"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.br.mod17.list.GenericList"/>
+    <fullyQualifiedTypeName name="com.br.mod17.classes.CarroFord"/>
 </qualifiedTypeNameHistroy>
