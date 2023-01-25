@@ -10,4 +10,10 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.br.mod17.list.GenericList"/>
     <fullyQualifiedTypeName name="com.br.mod17.classes.CarroFord"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Documented"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+    <fullyQualifiedTypeName name="com.br.mod18.Anotation.TableName"/>
 </qualifiedTypeNameHistroy>
