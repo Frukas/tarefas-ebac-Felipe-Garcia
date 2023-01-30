@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.br.mod13.PessoaFisica"/>
     <fullyQualifiedTypeName name="com.br.mod13.PessoaJuridica"/>
@@ -16,4 +15,10 @@
     <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
     <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
     <fullyQualifiedTypeName name="com.br.mod18.Anotation.TableName"/>
+    <fullyQualifiedTypeName name="com.br.mod19.Anotation.TableName"/>
+    <fullyQualifiedTypeName name="com.br.mod19.Reflexion"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Annotation"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="com.br.mod19.Anotation"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
