@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="com.br.mod15.car.Car"/>
     <fullyQualifiedTypeName name="com.br.mod17.classes.Carro"/>
     <fullyQualifiedTypeName name="com.br.mod17.classes.carroFiat"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.br.mod17.list.GenericList"/>
     <fullyQualifiedTypeName name="com.br.mod17.classes.CarroFord"/>
     <fullyQualifiedTypeName name="java.lang.annotation.Documented"/>
@@ -20,5 +19,9 @@
     <fullyQualifiedTypeName name="java.lang.annotation.Annotation"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
     <fullyQualifiedTypeName name="com.br.mod19.Anotation"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
 </qualifiedTypeNameHistroy>

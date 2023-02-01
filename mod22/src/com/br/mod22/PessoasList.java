@@ -14,7 +14,7 @@ public class PessoasList {
 	public void printPersonByGender(char genero) {
 		listaPessoas
 			.stream()
-			.filter(p -> p.getGenero() == genero)
+			.filter(p -> p.getGenero() == genero)			
 			.forEach(p -> System.out.println(p));
 	}
 }
