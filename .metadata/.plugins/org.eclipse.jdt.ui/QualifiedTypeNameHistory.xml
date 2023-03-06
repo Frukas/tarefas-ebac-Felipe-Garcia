@@ -25,4 +25,8 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
     <fullyQualifiedTypeName name="junit.framework.Assert"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+    <fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
+    <fullyQualifiedTypeName name="com.br.mod24.IContratoDao"/>
+    <fullyQualifiedTypeName name="com.br.mod24.mock.ContratoDaoMock"/>
 </qualifiedTypeNameHistroy>
