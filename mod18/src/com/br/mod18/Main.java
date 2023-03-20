@@ -9,5 +9,10 @@ public class Main {
 		
 		@TableName("AnyName")
 		String newTable;
+		
+		newTable = "Qulquer coisa so para parar de dar erro";
+		
+		System.out.print(newTable);
+		
 	}
 }

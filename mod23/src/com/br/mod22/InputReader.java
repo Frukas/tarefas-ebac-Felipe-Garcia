@@ -15,6 +15,7 @@ public class InputReader {
 		System.out.println("Digite o genero: (M)asculino/(F)eminino/(N)eutro ");
 		pessoa.setGenero(in.nextLine());
 	
+		in.close();
 		return pessoa;		
 	}
 	
@@ -25,8 +26,9 @@ public class InputReader {
 		System.out.println("Escolha a quantidade de pessoas: ");
 		int quantidade = in.nextInt();
 				
-		for(int i = 0; i < quantidade; i++) {
+		for(int i = 0; i < quantidade; i++) {			
 			list.addToList(InputNewPessoas());
-		}	
+		}
+		in.close();
 	}	
 }

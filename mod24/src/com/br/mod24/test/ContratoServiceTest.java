@@ -23,7 +23,7 @@ public class ContratoServiceTest {
 	public void salvarComErroTest() {
 		IContratoDao dao = new ContratoDao();
 		IContratoService service = new ContratoService(dao);
-		String retorno = service.salvar();		
+		service.salvar();		
 	}
 	
 	@Test
@@ -38,7 +38,7 @@ public class ContratoServiceTest {
 	public void buscarComErroTest() {
 		IContratoDao dao = new  ContratoDao();
 		IContratoService service = new ContratoService(dao);
-		String retorno = service.buscar(0);
+		service.buscar(0);
 	}
 	
 	@Test
@@ -53,7 +53,7 @@ public class ContratoServiceTest {
 	public void excluirComErroTest() {
 		IContratoDao dao = new  ContratoDao();
 		IContratoService service = new ContratoService(dao);
-		String retorno = service.excluir(0);
+		service.excluir(0);
 	}
 	
 	@Test
@@ -68,6 +68,6 @@ public class ContratoServiceTest {
 	public void atualizarComErroTest() {
 		IContratoDao dao = new  ContratoDao();
 		IContratoService service = new ContratoService(dao);
-		String retorno = service.excluir(0);
+		service.excluir(0);
 	}
 }

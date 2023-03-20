@@ -17,11 +17,8 @@
     <fullyQualifiedTypeName name="com.br.mod19.Anotation.TableName"/>
     <fullyQualifiedTypeName name="com.br.mod19.Reflexion"/>
     <fullyQualifiedTypeName name="java.lang.annotation.Annotation"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
     <fullyQualifiedTypeName name="com.br.mod19.Anotation"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
     <fullyQualifiedTypeName name="junit.framework.Assert"/>
@@ -29,4 +26,24 @@
     <fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
     <fullyQualifiedTypeName name="com.br.mod24.IContratoDao"/>
     <fullyQualifiedTypeName name="com.br.mod24.mock.ContratoDaoMock"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="com.project3.classes.ConnectionFatoryProductionDB"/>
+    <fullyQualifiedTypeName name="com.project3.interfaces.IConnectionFactory"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
+    <fullyQualifiedTypeName name="com.projeto3.cliente.Cliente"/>
+    <fullyQualifiedTypeName name="com.project3.interfaces.IGenericDAO"/>
+    <fullyQualifiedTypeName name="com.project3.classes.ConnectionFactoryProductionDB"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.project3.classes.ConnectionFactoryDB"/>
+    <fullyQualifiedTypeName name="com.projeto3.cliente.ClienteDAO"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterAll"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.TestMethodOrder"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Order"/>
+    <fullyQualifiedTypeName name="com.projeto3.produto.Produto"/>
+    <fullyQualifiedTypeName name="com.projeto3.produto.ProdutoDAO"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

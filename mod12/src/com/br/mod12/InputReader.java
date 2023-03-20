@@ -1,30 +1,27 @@
 package com.br.mod12;
 
 import java.util.Scanner;
-import java.util.Map;
 import java.util.Arrays;
-import java.util.HashMap;
 
 public class InputReader {
 	
 	public Pessoas InputNewPessoas() {
 		
-		Scanner in = new Scanner(System.in);
-		Pessoas pessoa = new Pessoas();
-		
-		System.out.println("Digite o nome da pessoa");
-		pessoa.setNome(in.nextLine());		
+		try (Scanner in = new Scanner(System.in)) {
+			Pessoas pessoa = new Pessoas();
+			
+			System.out.println("Digite o nome da pessoa");
+			pessoa.setNome(in.nextLine());		
 
-		System.out.println("Digite o genero: (M)asculino/(F)eminino/(N)eutro ");
-		pessoa.setGenero(in.nextLine());
-	
-		return pessoa;		
+			System.out.println("Digite o genero: (M)asculino/(F)eminino/(N)eutro ");
+			pessoa.setGenero(in.nextLine());
+
+			return pessoa;
+		}		
 	}
 	
 	public void InputPessoaInLine(PessoasList list) {
 		Scanner in = new Scanner(System.in);		
-		Map<String , String> pessoasMap = new HashMap<String, String>();
-				
 		System.out.println("Digite sequencia de nome separado por vírgula. ");
 		System.out.println("Pode também acrescentar genero depois do nome com um traço.");
 		String sequenciaPessoas = in.nextLine();
@@ -37,7 +34,7 @@ public class InputReader {
 			for(String pessoa : pessoas) {
 				System.out.println(pessoa.trim());
 			}
-			
+			in.close();
 			return;
 		}	
 		//↑↑↑↑↑↑↑↑↑↑↑↑↑↑Primeira parte da tarefa↑↑↑↑↑↑↑↑↑↑↑↑↑↑
@@ -47,18 +44,19 @@ public class InputReader {
 			String genero = pessoa.split("-")[1].trim();
 			
 			list.addToList(new Pessoas(nome,genero ));
-		}		
+		}
+		in.close();
 	}
 	
 	public void InputSeveralPessoas(PessoasList list) {
 		
-		Scanner in = new Scanner(System.in);
-		
-		System.out.println("Escolha a quantidade de pessoas: ");
-		int quantidade = in.nextInt();
-				
-		for(int i = 0; i < quantidade; i++) {
-			list.addToList(InputNewPessoas());
+		try (Scanner in = new Scanner(System.in)) {
+			System.out.println("Escolha a quantidade de pessoas: ");
+			int quantidade = in.nextInt();
+					
+			for(int i = 0; i < quantidade; i++) {
+				list.addToList(InputNewPessoas());
+			}
 		}	
 	}	
 	

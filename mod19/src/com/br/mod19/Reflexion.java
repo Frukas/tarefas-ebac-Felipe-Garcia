@@ -1,6 +1,5 @@
 package com.br.mod19;
 
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 
 public class Reflexion {
