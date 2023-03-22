@@ -44,6 +44,13 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Order"/>
     <fullyQualifiedTypeName name="com.projeto3.produto.Produto"/>
     <fullyQualifiedTypeName name="com.projeto3.produto.ProdutoDAO"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.SequenceGenerator"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
 </qualifiedTypeNameHistroy>
