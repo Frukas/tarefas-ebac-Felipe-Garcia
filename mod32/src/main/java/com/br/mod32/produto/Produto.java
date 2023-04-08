@@ -21,7 +21,7 @@ public class Produto {
 	@Column(name="NOME", nullable=false)
 	private String nome;
 	
-	@Column(name="NOME", nullable=false)
+	@Column(name="FABRICANTE", nullable=false)
 	private String Fabricante;
 	
 	public int getId() {
