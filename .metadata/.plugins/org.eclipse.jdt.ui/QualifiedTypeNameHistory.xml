@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.br.mod15.car.Car"/>
-    <fullyQualifiedTypeName name="com.br.mod17.classes.Carro"/>
-    <fullyQualifiedTypeName name="com.br.mod17.classes.carroFiat"/>
-    <fullyQualifiedTypeName name="com.br.mod17.list.GenericList"/>
-    <fullyQualifiedTypeName name="com.br.mod17.classes.CarroFord"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.Documented"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
-    <fullyQualifiedTypeName name="com.br.mod18.Anotation.TableName"/>
-    <fullyQualifiedTypeName name="com.br.mod19.Anotation.TableName"/>
-    <fullyQualifiedTypeName name="com.br.mod19.Reflexion"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.Annotation"/>
-    <fullyQualifiedTypeName name="com.br.mod19.Anotation"/>
-    <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
-    <fullyQualifiedTypeName name="org.junit.Test"/>
-    <fullyQualifiedTypeName name="junit.framework.Assert"/>
     <fullyQualifiedTypeName name="org.junit.Assert"/>
     <fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
     <fullyQualifiedTypeName name="com.br.mod24.IContratoDao"/>
@@ -36,7 +17,6 @@
     <fullyQualifiedTypeName name="com.project3.classes.ConnectionFactoryDB"/>
     <fullyQualifiedTypeName name="com.projeto3.cliente.ClienteDAO"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterAll"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.TestMethodOrder"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Order"/>
     <fullyQualifiedTypeName name="com.projeto3.produto.Produto"/>
@@ -45,7 +25,6 @@
     <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="jakarta.persistence.SequenceGenerator"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Persistence"/>
     <fullyQualifiedTypeName name="jakarta.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="jakarta.persistence.EntityManager"/>
@@ -59,5 +38,26 @@
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.projeto4.cliente.ClienteJPADAO"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="com.project4.interfaces.IConnectionFactory"/>
+    <fullyQualifiedTypeName name="com.project4.interfaces.IEntityManagerFactory"/>
+    <fullyQualifiedTypeName name="com.project4.classes.JPAEntityFactory"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.projeto4.produto.Produto"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="com.projeto4.cliente.Cliente"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+    <fullyQualifiedTypeName name="com.project4.interfaces.IGenericDAO"/>
+    <fullyQualifiedTypeName name="com.projeto4.cliente.ClienteAbsDAO"/>
+    <fullyQualifiedTypeName name="com.projeto4.produto.ProdutoAbsDAO"/>
+    <fullyQualifiedTypeName name="com.project4.interfaces.AGenericDAO"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
