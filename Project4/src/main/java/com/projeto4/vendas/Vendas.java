@@ -39,10 +39,6 @@ public class Vendas {
 	
 	@Column(name="valor_total")	
 	private float valorTotal;
-	
-	public Cliente getCliente() {
-		return cliente;
-	}
 
 	public Vendas() {
 		super();
@@ -54,6 +50,10 @@ public class Vendas {
 		this.produtosComprados = produtosComprados;
 		this.dataCompra = dataCompra;
 		this.valorTotal = valorTotal;
+	}
+	
+	public Cliente getCliente() {
+		return cliente;
 	}
 
 	public void setCliente(Cliente cliente) {
