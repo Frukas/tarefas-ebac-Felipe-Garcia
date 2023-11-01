@@ -46,7 +46,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.projeto4.cliente.ClienteJPADAO"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="com.project4.interfaces.IConnectionFactory"/>
     <fullyQualifiedTypeName name="com.project4.interfaces.IEntityManagerFactory"/>
     <fullyQualifiedTypeName name="com.project4.classes.JPAEntityFactory"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="com.projeto4.produto.ProdutoAbsDAO"/>
     <fullyQualifiedTypeName name="com.project4.interfaces.AGenericDAO"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.project4.interfaces.IConnectionFactory"/>
 </qualifiedTypeNameHistroy>

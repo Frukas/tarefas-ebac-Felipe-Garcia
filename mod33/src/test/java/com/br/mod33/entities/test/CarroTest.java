@@ -11,6 +11,7 @@ class CarroTest {
 	@Test
 	void test() {
 		EntityManagerFactory emFactoryObj = Persistence.createEntityManagerFactory("ExemploJPA");
+		@SuppressWarnings("unused")
 		EntityManager entityManager =  emFactoryObj.createEntityManager();
 	}
 
