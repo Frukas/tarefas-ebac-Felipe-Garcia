@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+	<h:head>
+		<title>JSF - Myfaces Example</title>
+	</h:head>
+	<h:body>
+	<h:form>	
+			<h1>Cadastro de cliente</h1>		
+			
+            <div class="col-12 md:col-10">
+            	<p:outputLabel value="Nome " styleClass="col-12 mb-2 md:col-2 md:mb-0"/>	
+            	<p:inputText value="#{clienteBean.nome}"/>
+            </div>
+            
+           <div class="col-12 md:col-10">
+            	<p:outputLabel value="CPF     " styleClass="col-12 mb-2 md:col-2 md:mb-0"/>	
+            	<p:inputText value="#{clienteBean.cpf}"/>
+            </div>
+            
+            <div class="col-12 md:col-10">
+            	<p:outputLabel value="Telefone" styleClass="col-12 mb-2 md:col-2 md:mb-0"/>	
+            	<p:inputText value="#{clienteBean.telefone}"/>
+            </div>
+
+			<p:commandButton value="Submit" action="#{clienteBean.cadastrar}" /> 
+     
+	</h:form>
+	</h:body>
+</html>
